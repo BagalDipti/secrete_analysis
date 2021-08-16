@@ -14,3 +14,5 @@ stage('Check-Git_Secrets'){
       sh 'cat trufflehog'
       }
   }
+}
+}
