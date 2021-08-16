@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'http://gsgit.gslab.com/dipti_bagal/secrets_analysis.git'
+        git 'https://github.com/BagalDipti/secrete_analysis.git'
       }
     }
 
